@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&amp;display=swap');
+
+body{
+	font-size: 14px;
+	margin:60px;
+	font-family:"Inter";
+	background:#eeeeee;
+	font-weight:normal;
+	color:#555555;
+	line-height: 1.8em;
+}
+
+h1.title{
+	line-height:64px;
+	font-weight:bold;
+	color:#111111;
+	margin-bottom: 10px;
+}
+
+section{
+margin-bottom:30px;
+border-radius:5px;
+-moz-border-radius:5px;
+-webkit-border-radius:5px;
+overflow:hidden;
+}
+
+section.shadow{
+-webkit-box-shadow: 3px 3px 10px -1px rgba(0,0,0,0.1);
+-moz-box-shadow: 3px 3px 10px -1px rgba(0,0,0,0.1);
+box-shadow: 3px 5px 10px -1px rgba(0,0,0,0.1);
+}
+
+section.bg-color{
+	background:#f5f5f5;
+	padding:20px;
+}
+
+.expand{
+	background:#ffffff;
+}
+
+section .expand .title{
+	color:#484848;
+	font-weight:bold;
+	padding:20px;
+	background:#f5f5f5;
+	cursor:pointer;
+	-webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+  user-select: none;          /* Likely future */   
+	
+}
+
+section .expand .content{
+	display:block;
+	overflow:hidden;
+	padding:20px;	
+	padding-top:0;
+	background:#f5f5f5;
+}
+
+
+
+section .expand:nth-child(odd) .title,
+section .expand:nth-child(odd) .content{
+	background:#ffffff;
+}
+
+h1{
+	
+	font-size:32px;
+	margin:0;
+}
+
+
+h2{
+	display:block;
+	font-size:18px;
+	padding:15px 20px;
+	background:#484848;
+	color:#ffffff;
+	margin:0;
+	border-bottom:solid 1px #eee;
+}
+
+h3{
+	font-size:14px;
+	font-weight:bold;
+	color:#484848;
+}
+
+p.lead{
+	font-size: 16px;
+}
+
+.btn-primary,.btn-primary:hover{
+	background:#484848;
+	border-color:#484848;
+}
+
+pre {
+            display: block;
+            font: normal 12px/24px "Courier New", Courier, monospace !important;
+            color: #333;
+            background-color: #f5f5f5;
+            background-image: -webkit-repeating-linear-gradient(top, #fefefe 0px, #fefefe 24px, #f5f5f5 24px, #f5f5f5 48px);
+            background-image: -moz-repeating-linear-gradient(top, #fefefe 0px, #fefefe 24px, #f5f5f5 24px, #f5f5f5 48px);
+            background-image: -ms-repeating-linear-gradient(top, #fefefe 0px, #fefefe 24px, #f5f5f5 24px, #f5f5f5 48px);
+            background-image: -o-repeating-linear-gradient(top, #fefefe 0px, #fefefe 24px, #f5f5f5 24px, #f5f5f5 48px);
+            background-image: repeating-linear-gradient(top, #fefefe 0px, #fefefe 24px, #f5f5f5 24px, #f5f5f5 48px);
+            padding: 0em 1em;
+            overflow: auto;
+            border: solid 1px #ccc;
+			margin:20px 0 20px 0;
+        }
+
+        
+
+        pre strong {
+            color: #390;
+        }
+		
+		.mt15{
+		margin-top:15px;
+		}
+		.mt20{
+		margin-top:20px;
+		}

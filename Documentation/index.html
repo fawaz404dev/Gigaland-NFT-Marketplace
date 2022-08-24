@@ -1,0 +1,233 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Gigaland Documentation</title>
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+</head>
+
+<body>
+    <div class="container">
+        <section>
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="title">Gigaland's Documentation</h1>
+                </div>
+                <div class="col-md-10">
+                    <p>Thank you for useing our theme . If you have any questions that are beyond the scope of this help file, please feel free to ask via Github comments. Also if you love this item please don't forget to give item ratings. It would be very meaningful for us. Thanks so much! :) </p>
+                </div>
+                <div class="col-md-2 text-right"><a class="btn btn-primary" href="https://github.com/fawaz404dev/Gigaland-NFT-Marketplace">View All Our Items</a></div>
+            </div>
+        </section>
+        <section class="shadow">
+            <h2>How To</h2>
+            <!-- faq begin -->
+            <div class="expand">
+                <div class="title">Edit html files</div>
+                <div class="content">
+                    <p>To edit HTML files, software needed are text editors like Sublime Text, Notepad++, or Dreamweaver.</p>
+                    Sublime Text download: <a href="https://www.sublimetext.com/download" target="_blank">https://www.sublimetext.com/download</a><br>
+                    Notepad++ download: <a href="https://notepad-plus-plus.org/downloads" target="_blank">https://notepad-plus-plus.org/downloads</a>
+                </div>
+            </div>
+            <!-- faq close -->
+
+            <!-- faq begin -->
+            <div class="expand">
+                <div class="title">HTML structure</div>
+                <div class="content">This template using Bootstrap framework. Main content is placed between header and footer area. The content is nested within <strong>&lt;div id=&quot;content&quot;&gt;</strong>.
+                    <pre>... header area ...
+
+&lt;div id=&quot;<strong>content</strong>&quot;&gt;
+     &lt;div class=&quot;<strong>container</strong>&quot;&gt;
+          &lt;div class=&quot;<strong>row</strong>&quot;&gt;
+               &lt;div class=&quot;<strong>col-md-4</strong>&quot;&gt;
+                    this is your content			
+               &lt;/div&gt;
+               &lt;div class=&quot;<strong>col-md-8</strong>&quot;&gt;<strong>
+</strong>                    this is your content
+               &lt;/div&gt;
+          &lt;/div&gt;
+     &lt;/div&gt;
+
+     &lt;section&gt;
+          &lt;div class=&quot;<strong>container</strong>&quot;&gt;
+               &lt;div class=&quot;<strong>row</strong>&quot;&gt;
+                    this is your content
+               &lt;/div&gt;
+          &lt;/div&gt;
+     &lt;/section&gt;
+
+&lt;/div&gt;
+
+
+... footer area ...
+        </pre>
+                </div>
+            </div>
+            <!-- faq close -->
+
+            <!-- faq begin -->
+            <div class="expand">
+                <div class="title">Create columns</div>
+                <div class="content">
+                    <p>For a simple two column layout, create a <strong>.row</strong> and add the appropriate number of <strong>.col-md-*</strong> columns. As this is a 12-column grid, each <strong>.col-md-*</strong> spans a number of those 12 columns, and should always add up to 12 for each row (or the number of columns in the parent).</p>
+                    <p>Please read more for Bootstrap grid system here: <a href="https://getbootstrap.com/docs/5.0/layout/columns/" target="_blank">https://getbootstrap.com/docs/5.0/layout/columns/</a></p>
+                    <pre>&lt;div class=&quot;<strong>row</strong>&quot;&gt;<br>     &lt;div class=&quot;<strong>col-md-6</strong>&quot;&gt; this is 1/2 columns &lt;/div&gt;<br>     &lt;div class=&quot;<strong>col-md-6</strong>&quot;&gt; this is 1/2 columns &lt;/div&gt;<br>&lt;/div&gt;
+
+&lt;div class=&quot;<strong>row</strong>&quot;&gt;<br>     &lt;div class=&quot;<strong>col-md-4</strong>&quot;&gt; this is 1/3 columns &lt;/div&gt;<br>     &lt;div class=&quot;<strong>col-md-8</strong>&quot;&gt; this is 2/3 columns &lt;/div&gt;<br>&lt;/div&gt;
+
+&lt;div class=&quot;<strong>row</strong>&quot;&gt;<br>     &lt;div class=&quot;<strong>col-md-3</strong>&quot;&gt; this is 1/4 columns &lt;/div&gt;<br>     &lt;div class=&quot;<strong>col-md-9</strong>&quot;&gt; this is 3/4 columns &lt;/div&gt;<br>&lt;/div&gt;</pre>
+                </div>
+            </div>
+            <!-- faq close -->
+
+            <!-- faq begin -->
+            <div class="expand">
+                <div class="title">Enable RTL</div>
+                <div class="content">
+                    <p>To change text direction to RTL for whole pages on this template is very easy. You just need change one setting in file designesia.js. Change var <b>rtl_mode</b> to 'on'.</p>
+                    <pre>var rtl_mode = <b>'on'</b>; // on - for enable RTL, off - for deactive RTL</pre>
+                </div>
+            </div>
+            <!-- faq close -->
+
+            <!-- faq begin -->
+            <div class="expand">
+                <div class="title">Change scheme</div>
+                <div class="content">
+                    <p>To use grey scheme style you must add de-grey.css to page head</p>
+                    <pre>&lt;link href=&quot;css/de-grey.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot; /&gt;</pre>
+                    <p>Then insert class name de-grey to body tag</p>
+                    <pre>&lt;body class=&quot;dark-scheme de-grey&quot;&gt;</pre>
+                </div>
+            </div>
+            <!-- faq close -->
+
+            <!-- faq begin -->
+            <div class="expand">
+                <div class="title">Change accent color</div>
+                <div class="content">
+                    <p>For each template page, look at line 25 below</p>
+                    <pre>&lt;link id=&quot;colors&quot; href=&quot;css/colors/scheme-01.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;&gt;</pre>
+                    <p>Replace scheme-01.css with another value. You can choose one of below: scheme-01.css, scheme-02.css, scheme-03.css, scheme-04.css.</p>
+                    <p>All premade color on this template can be found inside folder css/colors/.</p>
+                </div>
+            </div>
+            <!-- faq close -->
+
+            <!-- faq begin -->
+            <div class="expand">
+                <div class="title">Animate object on scroll</div>
+                <div class="content">
+                    <p>Select an object that you want to animate. As example you want create animate for H1 element. You can see below: </p>
+                    <pre>&lt;h1 class=<strong>&quot;wow fadeIn&quot;</strong> data-wow-delay=<strong>&quot;.2s&quot; data-wow-duration=&quot;.5s&quot;</strong>&gt;Animate Text&lt;/h1&gt;
+</pre>
+                    <ul>
+                        <li>You must add class name &quot;<strong>wow</strong>&quot; for object that you want to animate.
+                        </li>
+                        <li><strong>fadeIn</strong>: sample type of animation. You can see all animation available from: <a href="http://daneden.github.io/animate.css/">http://daneden.github.io/animate.css/</a></li>
+                        <li><strong>data-wow-delay</strong>: determine when animation will start (on second)</li>
+                        <li><strong>data-wow-duration</strong>: determine duration of animation (on second)</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- faq close -->
+
+            <!-- faq begin -->
+            <div class="expand">
+                <div class="title">Custom background color for div/section</div>
+                <div class="content">
+                    <p>To make custom background color without touching css file, you can use code <strong>data-bgcolor=&quot;#hex-color&quot;</strong> within your div/section tag. See sample below:</p>
+                    <pre>&lt;div <strong>data-bgcolor</strong>=&quot;#333333&quot;&gt;<br>     my div content...<br>&lt;/div&gt;</pre>
+                </div>
+            </div>
+            <!-- faq close -->
+
+            <!-- faq begin -->
+            <div class="expand">
+                <div class="title">Custom background image for div/section</div>
+                <div class="content">
+                    <p>To make custom background image without touching css file, you can use code <strong>data-bgimage=&quot;url(your-image-url)&quot; </strong> within your div/section tag. See sample below:</p>
+                    <pre>&lt;div <strong>data-bgimage</strong>=&quot;<strong>url(images/background/bg-1.jpg)</strong>&quot;&gt;<br>     my div content...<br>&lt;/div&gt;        </pre>
+                </div>
+            </div>
+            <!-- faq close -->
+
+            <!-- faq begin -->
+            <div class="expand">
+                <div class="title">Create cookie consent</div>
+                <div class="content">
+                    <p>To add cookie consent on any page, you can insert code below before end of body tag &#x3C;/body&#x3E;</p>
+                    <pre>&#x3C;!-- COOKIES NOTICE  --&#x3E;
+    &#x3C;script src=&#x22;js/cookit.js&#x22;&#x3E;&#x3C;/script&#x3E;
+     &#x3C;script&#x3E;
+      $(document).ready(function() {
+        $.cookit({
+          backgroundColor: &#x27;#101010&#x27;,
+          messageColor: &#x27;#fff&#x27;,
+          linkColor: &#x27;#FEF006&#x27;,
+          buttonColor: &#x27;#FEF006&#x27;,
+          messageText: &#x22;This website uses cookies to ensure you get the best experience on our website.&#x22;,
+          linkText: &#x22;Learn more&#x22;,
+          linkUrl: &#x22;index.html&#x22;,
+          buttonText: &#x22;I accept&#x22;,
+        });
+      });
+    &#x3C;/script&#x3E;</pre>
+                </div>
+            </div>
+            <!-- faq close -->
+
+        </section>
+        <section class="shadow">
+            <h2>jQuery and CSS Files</h2>
+            <!-- faq close -->
+
+            <!-- faq begin -->
+            <div class="expand">
+                <div class="title">List of javascipt files</div>
+                <div class="content">
+                    <ul>
+                        <li><strong>jquery.min.js</strong> - http://docs.jquery.com/Downloading_jQuery</li>
+                        <li><strong>bootstrap.min.js</strong> - bootstrap js file</li>
+                        <li><strong>Gigaland.js</strong> - custom js file</li>
+                        <li><strong>jquery.isotope.min.js</strong> - used in gallery page</li>
+                        <li><strong>jquery.magnific-popup.min.js</strong> - used to open popup image</li>
+                        <li><strong>easing.js</strong> - http://archive.plugins.jquery.com/project/Easing</li>
+                        <li><strong>jquery.ui.totop.js</strong> - used to scroll to top</li>
+                        <li><strong>validation.js</strong> - used for contact form validation</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- faq close -->
+
+            <!-- faq begin -->
+            <div class="expand">
+                <div class="title">List of CSS files</div>
+                <div class="content">
+                    <ul>
+                        <li><strong>animate.css</strong> - used to make animation </li>
+                        <li><strong>bg.css</strong> - used to set background for all section and subheader</li>
+                        <li><strong>bootstrap.css</strong> - main css framework for this theme</li>
+                        <li><strong>color.css</strong> - used to load color for template</li>
+                        <li><strong>magnific-popup.css</strong> - for maginfic popup jquery</li>
+                        <li><strong>owl.carousel.css, owl.theme.css, owl.transitions.css</strong> - for owl carousel jquery</li>
+                        <li><strong>plugin.css</strong> - overwrite default plugin css</li>
+                        <li><strong>rev-settings.css</strong> - custom css for Revolution Slider</li>
+                        <li><strong>style.css</strong> - main css file for this template</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+<script src="js/jquery.min.js"></script>
+<script src="js/easing.js"></script>
+<script src="js/custom.js"></script>
+
+
+</html>
