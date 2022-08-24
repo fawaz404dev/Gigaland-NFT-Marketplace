@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Roboto+Slab:wght@100;200;300;400;500;600;700&display=swap');
+
+body,p,#mainmenu,#mainmenu *,#quick_search,.profile_username, .profile_wallet, .nft_attr h4, .nft_attr h5{
+    font-family: "Roboto Slab";
+    font-weight: 400;
+}
+
+.profile_username, .profile_wallet, .nft_attr h4, .nft_attr h5{
+    font-weight: bold;
+}
+
+.de-retro .icon-box.style-2:hover i, .de-retro .icon-box.style-2:hover span,a.btn-main:hover{
+    color: #0d0c22;
+}
+
+h1,
+h2,
+h4,
+h3,
+h5,
+h6,
+.h1_big,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+footer.footer-light h5,
+.nft_pic_title {
+    font-family: "Bungee";
+    letter-spacing: 0;
+    font-weight: bold;
+}
+
+body.de-retro,
+.de-retro section,
+.de-retro header.smaller.header-light,
+.de-retro header.header-mobile.header-light,
+.de-retro .nft__item,
+.de-retro .nft_coll,
+.de-retro .de_countdown,
+.de-retro .nft_pic.style-2,
+.de-retro header.header-light,
+.de-retro header.scroll-light,
+.de-retro #content,
+#mainmenu ul,
+.owl-prev, .owl-next, .d-nav-left, .d-nav-right{
+background: #FAF6F1;
+}
+
+.de_countdown{
+    border-width: 1px;
+}
+
+.de-retro footer,
+.de-retro footer .widget a:hover{
+    color: #ffffff;
+}
+
+.de-retro .nft__item,
+.de-retro .nft_coll,
+.de-retro .nft_pic.style-2,
+.de-retro .box-url,
+.de-retro .box-url-label,
+.de-retro .activity-list li,
+.de-retro .activity-filter li,
+.box-retro,
+.de-retro .icon-box.style-2,
+.de-retro .de_tab.tab_simple .de_nav li:not(.active) span,
+#form_sb input[type=text],
+#form_sb #btn-submit i,
+#form_quick_search input[type=text],
+#form_quick_search i,
+.header-light #quick_search,
+a.btn-main:hover,
+.de-retro .de-submenu {
+    border: solid 1px #888;
+    background: #FDFBF8;
+    border-radius: 0;
+    box-shadow: 6px 6px 0px 0px rgba(0,0,0,0.09);
+    -webkit-box-shadow: 6px 6px 0px 0px rgba(0,0,0,0.09);
+    -moz-box-shadow: 6px 6px 0px 0px rgba(0,0,0,0.09);
+}
+
+.nft_coll_pp img,
+.de-retro .author_list_pp img,
+.activity-list li:after,
+.d_coll .profile_avatar img,
+.de-retro .nft_pic,
+.de-retro .nft_pic.style-2,
+.nft_img_preview,
+.p_list_pp img{
+    border: solid 2px #333;
+     box-shadow: 6px 6px 0px 0px rgba(0,0,0,0.09);
+    -webkit-box-shadow: 6px 6px 0px 0px rgba(0,0,0,0.09);
+    -moz-box-shadow: 6px 6px 0px 0px rgba(0,0,0,0.09);
+}
+
+.de-menu-profile img,
+.de-menu-notification{
+    border: solid 1px #333;
+     box-shadow: 6px 6px 0px 0px rgba(0,0,0,0.09);
+    -webkit-box-shadow: 6px 6px 0px 0px rgba(0,0,0,0.09);
+    -moz-box-shadow: 6px 6px 0px 0px rgba(0,0,0,0.09);
+}
+
+
+.de-retro .de_tab.tab_simple .de_nav li.active span{
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+
+.de-retro .de_tab.tab_simple .de_nav li:not(.active) span,
+.de-retro .box-url-label,
+#form_quick_search input[type=text],
+#form_quick_search i,
+.de-retro .activity-filter li
+{
+     box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+}
+
+#subheader{
+    padding: 120px 0 80px 0; 
+}
+.de-retro header.border-bottom,
+#subheader{
+    border-bottom: solid 1px #ccc !important;
+}
+
+.de-retro .nft__item,
+.de-retro .nft__item img,
+.de-retro .feature-box.f-boxed,
+.de-retro .feature-box i.i-boxed,
+.de-retro .nft_coll .nft_wrap,
+.de_countdown,
+.d-create-file,
+#mainmenu ul,
+.de_tab.tab_methods .de_nav li span,
+.form-border input[type=text], .form-border textarea, .form-underline input[type=email], .form-border input[type=password], .form-border input[type=date], .form-border select,.dropdown>a,
+.de-retro .item_filter_group,
+.de-retro .de_tab.tab_simple .de_nav li.active span,
+.item_info_counts>div,
+#form_quick_search input[type=text],
+.de-retro .nft_pic,
+#form_sb input[type=text],
+#form_sb #btn-submit i,
+#form_quick_search #btn-submit i,
+.de_form input[type="checkbox"] + label:before {
+    border-radius: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+}
+
+.de-retro .rounded{
+    border-radius: 0 !important;
+}
+
+.de-retro .nft_coll .nft_wrap img{
+    padding-bottom: 0;
+}
+
+header a.btn-main,
+a.btn-main,
+a.btn-main:active,
+a.btn-main:focus,
+a.btn-main:visited,
+.btn-main,
+input[type=button].btn-main,
+#quick_search{
+    border-radius: 0px;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+}
+
+.nft__item_extra{
+    background: #FDFBF8;
+    transform: scale(1.1);
+}
+
+@media(min-width:980px){
+    #mainmenu ul{
+         border: solid 1px #888;
+        border-radius: 0;
+        box-shadow: 6px 6px 0px 0px rgba(0,0,0,0.09);
+        -webkit-box-shadow: 6px 6px 0px 0px rgba(0,0,0,0.09);
+        -moz-box-shadow: 6px 6px 0px 0px rgba(0,0,0,0.09);
+    }
+}
+
+

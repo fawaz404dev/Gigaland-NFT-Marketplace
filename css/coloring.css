@@ -1,0 +1,439 @@
+/* default color: #fa6a2e  */
+.bg-color,
+header,
+section.bg-color,
+section.call-to-action,
+#mainmenu li li a:hover,
+#mainmenu ul li:hover>a,
+.price-row,
+.slider-info .text1,
+.btn-primary,
+.bg-id-color,
+.dropcap,
+.fullwidthbanner-container a.btn,
+.feature-box-big-icon i,
+#testimonial-full,
+.icon-deco i,
+.feature-box-small-icon .border,
+.date-post,
+.team-list .small-border,
+.de-team-list .small-border,
+.owl-arrow span,
+.de-progress .progress-bar,
+#btn-close-x:hover,
+.box-fx .info,
+.btn-more,
+.widget .small-border,
+.product img:hover,
+#btn-search,
+.de_tab.timeline li.active .dot,
+.btn-id,
+.tiny-border,
+#subheader .small-border-deco span,
+#services-list li a:hover,
+.timeline .tl-block .tl-line,
+.de_tab.tab_style_2 .de_nav li.active span,
+.de_tab.tab_methods.style-2 .de_nav li.active span,
+.feature-box-small-icon.style-2 .number.bg-color,
+.owl-custom-nav .btn-next:before,
+.owl-custom-nav .btn-prev:before,
+.timeline>li>.timeline-badge,
+.de_light .de_tab.tab_style_3 .de_nav li.active span,
+.de_tab.tab_style_4 .de_nav li.active span,
+.circle,
+.social-icons-sm i:hover,
+.btn-rsvp,
+.pricing-s1 .ribbon,
+.de_tab.tab_style_4 .de_nav li.active,
+#preloader .s1 span,
+#filters a.selected,
+.custom-show:after,
+.custom-close:after,
+.widget-post .date,
+.style-2 .date-box,
+.feature-box-type-1 i,
+.owl-item.active>div blockquote:before,
+.accordion-section-title:before,
+#form_subscribe #btn-submit i,
+.bg-gradient-to-right-2,
+.feature-box-type-1.hover i,
+.feature-box-type-1:hover i,
+.ribbon,
+.box-icon-simple .num,
+.box-highlight.s2,
+.feature-box.f-boxed:hover,
+.fpw-overlay-btm,
+.fp-wrap .fpwow-icons,
+.social-icons i,
+.owl-item.active.center .feature-box-type-2,
+.testimonial-color .item:nth-child(1n) blockquote:before,
+.spinner>div,
+.d-gallery-item .dgi-1,
+a.btn-border:hover,
+.dih-overlay,
+.widget_tags li a,
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link,
+#selector .sc-opt,
+#cookieConsent a.cookieConsentOK,
+.mask .cover,
+.icon-box:hover,
+#topbar,
+footer,
+.feature-box.f-boxed.invert,
+.text-light .container-timeline ul li::before,
+.text-light .de_countdown,
+.de_tab .de_nav li.active span,
+.text-light .dropdown li span,
+.p-tagline,
+#selector #dark-mode,
+#selector #related-items,
+.dark-scheme .nft__item .de_countdown {
+    background: var(--primary-color);
+}
+
+
+.id-color,
+#mainmenu li:hover>ul,
+.date-box .day,
+.slider_text h1,
+h1.id-color,
+h2.id-color,
+h3.id-color,
+h4.id-color,
+.pricing-box li h1,
+.title span,
+i.large:hover,
+.feature-box-small-icon-2 i,
+.pricing-dark .pricing-box li.price-row,
+.ratings i,
+header.smaller #mainmenu a.active,
+.pricing-dark .pricing-box li.price-row,
+.dark .feature-box-small-icon i,
+a.btn-slider:after,
+a.btn-line:after,
+.team-list .social a,
+.de_contact_info i,
+.dark .btn-line:hover:after,
+.dark a.btn-line:hover:after,
+.dark a.btn-line.hover:after,
+a.btn-text:after,
+.separator span i,
+address span strong,
+.widget_tags li a,
+.dark .btn-line:after,
+.dark a.btn-line:after,
+.crumb li .active,
+.btn-right:after,
+.btn-left:before,
+#mainmenu li a:after,
+header .info .social i:hover,
+#back-to-top:hover:before,
+#services-list li.active,
+#services-list li.active a:after,
+.testimonial-list:before,
+span.deco-big,
+h2.hs1 span,
+.wm,
+.wm2,
+.blog-list .date-box .day,
+.social-icons-sm i,
+.de_tab.tab_style_4 .de_nav li span,
+.schedule-item .sc-name,
+.de_testi.opt-2 blockquote:before,
+.pricing-s1 .bottom i,
+.profile_pic .subtitle,
+.countdown-s3 .countdown-period,
+.countdown-s4 .countdown-period,
+.social-icons i:hover,
+a.btn-link,
+blockquote.s1:before,
+.accordion a:before,
+.expand-custom .toggle:before,
+.sitemap.s1 li:before,
+.list li:before,
+.post-meta span:before,
+.mask .cover .date:before,
+.feature-box-type-2 i,
+.pricing-s2 .bottom i,
+.post-text h3 a:hover,
+.pricing-s1 .top h2,
+.demo-icon-wrap i,
+.demo-icon-wrap-s2 span,
+a.btn-border.light:hover,
+.de_testi.opt-2.review .p-rating,
+.p-title,
+.h-phone i,
+a.btn-main.btn-white,
+a.bc-btn,
+.de_tab .de_nav li span {
+    color: var(--primary-color);
+}
+
+
+a,
+a:hover,
+footer .widget a:hover,
+.id-color-2,
+.id-color-secondary,
+span.id-color-2,
+.icon-box i,
+.h-phone i.id-color-secondary,
+.mask:hover .cover h3 i,
+address.s1 span i,
+.de_table .tr .td:nth-child(2) span,
+.activity-filter i,
+.dark-scheme .demo-icon-wrap i,
+.dark-scheme .demo-icon-wrap-s2 span,
+.de_tab .de_nav li span,
+.dark-scheme .small-border,
+.profile_username,
+.de_tab.tab_methods .de_nav li.active span i,
+a.btn-main.btn-light,
+.nft_attr h5 {
+    color: var(--secondary-color);
+}
+
+.id-color-3,
+span.id-color-3 {
+    color: var(--tertiary-color);
+}
+
+
+a.btn-main,
+.btn-main,
+.bg-color-2,
+.bg-color-secondary,
+.timeline h5,
+.testimonial-color .item:nth-child(2n) blockquote:before,
+a.btn-main.bg-color-2,
+a.btn-main.invert,
+#mainmenu li li a:hover,
+#mainmenu ul li:hover>a,
+.icon-box.invert:hover,
+#form_subscribe #btn-subscribe i.bg-color-secondary,
+#jpreBar,
+.t-circle,
+#back-to-top,
+.nft_item_pp i,
+.author_list_pp i,
+.pagination>.active>a,
+.pagination>.active>span,
+.pagination>.active>a:hover,
+.pagination>.active>span:hover,
+.pagination>.active>a:focus,
+.pagination>.active>span:focus,
+.nft_coll_pp i,
+.profile_avatar i,
+#btn_copy.clicked,
+#form_quick_search #btn-submit i,
+.owl-dot.active,
+.p_list_pp i,
+.author_list_pp img,
+.activity-filter li.active,
+.dark-scheme .de_countdown.bg-color-secondary,
+.btn-line:hover,
+a.btn-line:hover,
+.btn-line.hover,
+a.btn-line.hover,
+.de_form input[type="checkbox"]:checked + label:before,
+.coll_list_pp i,
+#form_sb #btn-submit i,
+.de-switch input[type=checkbox]:checked + label,
+.nft__item_extra button:hover,
+.nft__item_share a,
+#de-click-menu-notification .d-count,
+.play-pause {
+    background: var(--secondary-color);
+}
+
+section.dark {
+    background: rgba(var(--primary-color-rgb), .98);
+}
+
+.bg-color-3,
+a.btn-main.bg-color-3 {
+    background: var(--tertiary-color);
+}
+
+.feature-box-group .feature-box-type-1 i {
+    background: var(--secondary-color);
+}
+
+header.smaller,
+.bg-gradient-to-right,
+.post-image .post-info .inner,
+.switch::after,
+.accordion-section-title.active,
+.de_table.table-style-2:not(.no-heading) .tr:first-child,
+h1 .label,
+#menu-btn,
+a.btn-main.secondary,
+.accordion.secondary .accordion-section-title:before,
+header.header-gradient,
+.ribbon.s2,
+.table-pricing,
+.box-highlight {
+    background: var(--primary-color);
+}
+
+
+.bg-gradient-to-top-right {
+    background: linear-gradient(to top right, var(--primary-color), var(--primary-color-2));
+}
+
+.feature-box-type-1 i,
+#preloader {
+    background-image: linear-gradient(to top right, var(--primary-color), var(--primary-color-2));
+}
+
+.overlay-gradient {
+    background: -moz-linear-gradient(45deg, rgba(var(--primary-color-rgb), 0.9) 0%, rgba(var(--primary-color-2-rgb), 0.9) 100%);
+    background: -webkit-linear-gradient(45deg, rgba(var(--primary-color-rgb), 0.9) 0%, rgba(var(--primary-color-2-rgb), 0.9) 100%);
+    background: linear-gradient(45deg, rgba(var(--primary-color-rgb), 0.9) 0%, rgba(var(--primary-color-2-rgb), 0.9) 100%);
+}
+
+.overlay-gradient.t80 {
+    background: -moz-linear-gradient(45deg, rgba(var(--primary-color-rgb), 0.8) 0%, rgba(var(--primary-color-2-rgb), 0.8) 100%);
+    background: -webkit-linear-gradient(45deg, rgba(var(--primary-color-rgb), 0.8) 0%, rgba(var(--primary-color-2-rgb), 0.8) 100%);
+    background: linear-gradient(45deg, rgba(var(--primary-color-rgb), 0.8) 0%, rgba(var(--primary-color-2-rgb), 0.8) 100%);
+}
+
+.overlay-gradient.t70 {
+    background: -moz-linear-gradient(45deg, rgba(var(--primary-color-rgb), 0.7) 0%, rgba(var(--primary-color-2-rgb), 0.7) 100%);
+    background: -webkit-linear-gradient(45deg, rgba(var(--primary-color-rgb), 0.7) 0%, rgba(var(--primary-color-2-rgb), 0.7) 100%);
+    background: linear-gradient(45deg, rgba(var(--primary-color-rgb), 0.7) 0%, rgba(var(--primary-color-2-rgb), 0.7) 100%);
+}
+
+.overlay-gradient.t60 {
+    background: -moz-linear-gradient(45deg, rgba(var(--primary-color-rgb), 0.6) 0%, rgba(var(--primary-color-2-rgb), 0.6) 100%);
+    background: -webkit-linear-gradient(45deg, rgba(var(--primary-color-rgb), 0.6) 0%, rgba(var(--primary-color-2-rgb), 0.6) 100%);
+    background: linear-gradient(45deg, rgba(var(--primary-color-rgb), 0.6) 0%, rgba(var(--primary-color-2-rgb), 0.6) 100%);
+}
+
+.overlay-gradient.t50 {
+    background: -moz-linear-gradient(45deg, rgba(var(--primary-color-rgb), 0.5) 0%, rgba(var(--primary-color-2-rgb), 0.5) 100%);
+    background: -webkit-linear-gradient(45deg, rgba(var(--primary-color-rgb), 0.5) 0%, rgba(var(--primary-color-2-rgb), 0.5) 100%);
+    background: linear-gradient(45deg, rgba(var(--primary-color-rgb), 0.5) 0%, rgba(var(--primary-color-2-rgb), 0.5) 100%);
+}
+
+.all-timelines::before {
+    background: rgba(var(--secondary-color-rgb), .3);
+}
+
+.activity-list li:after{
+    color: rgba(var(--secondary-color-rgb), 1);
+}
+
+.item_info_counts>div,
+.de_table .tr .td:nth-child(2) span,
+.activity-filter i,
+.opt-create:hover {
+    background: rgba(var(--secondary-color-rgb), .1);
+}
+
+.opt-create{
+    background: rgba(var(--secondary-color-rgb), .03);
+}
+
+.activity-list li{
+    background: rgba(var(--secondary-color-rgb), .07);
+}
+
+
+a.btn-border.btn-invert,
+.small-border,
+.icon-box {
+    border-color: var(--primary-color);
+}
+
+.de_countdown,
+.container-timeline ul li::before,
+.de_tab.tab_methods .de_nav li.active span,
+.dark-scheme .pagination li.active a,
+.opt-create:hover {
+    border-color: var(--secondary-color);
+}
+
+
+.form-border input[type=text]:focus,
+.form-border textarea:focus,
+.form-underline input[type=email]:focus,
+.form-border input[type=date]:focus,
+.form-border select:focus,
+#quick_search:hover,
+.items_filter .dropdown:hover,
+.nft__item_share a:hover{
+    -webkit-box-shadow: 0px 0px 0px 4px rgba(var(--secondary-color-rgb), .3);
+    -moz-box-shadow: 0px 0px 0px 4px rgba(var(--secondary-color-rgb), .3);
+    box-shadow: 0px 0px 0px 4px rgba(var(--secondary-color-rgb), .3);
+}
+
+.de-menu-profile:hover img,
+.de-menu-notification:hover{
+    -webkit-box-shadow: 0px 0px 0px 4px rgba(var(--secondary-color-rgb), .5);
+    -moz-box-shadow: 0px 0px 0px 4px rgba(var(--secondary-color-rgb), .5);
+    box-shadow: 0px 0px 0px 4px rgba(var(--secondary-color-rgb), .5);
+}
+
+.de-card.has-shadow{
+    -webkit-box-shadow: 8px 8px 40px 0px rgba(var(--primary-color-rgb), .1);
+    -moz-box-shadow: 8px 8px 40px 0px rgba(var(--primary-color-rgb), .1);
+    box-shadow: 8px 8px 40px 0px rgba(var(--primary-color-rgb), .1);
+}
+
+.de-card.has-border{
+    border: solid 1px rgba(var(--secondary-color-rgb), .3);
+}
+
+a.btn-main.btn-light{
+    background: rgba(var(--secondary-color-rgb), .2);
+}
+
+
+.nft_attr,
+.wallet-images-group-1 img{
+    background: rgba(var(--primary-color-rgb), .05);
+}
+
+.nft_attr:hover{
+    background: rgba(var(--secondary-color-rgb), .2);
+}
+
+.container-timeline ul li,
+blockquote {
+    border-left-color: var(--primary-color);
+}
+
+header #mainmenu a span,
+header.transparent #mainmenu a span,
+.de-grey #subheader h1 {
+    border-bottom-color: var(--secondary-color);
+}
+
+
+.container-timeline ul li {
+    border-top-color: var(--secondary-color);
+}
+
+.line-preloader .p-line:nth-child(1) {
+    border-right-color: var(--secondary-color);
+    border-bottom-color: var(--secondary-color);
+}
+
+.line-preloader .p-line:nth-child(2) {
+    border-left-color: var(--secondary-color);
+    border-top-color: var(--secondary-color);
+}
+
+.line-preloader .p-line:nth-child(3) {
+    border-right-color: var(--secondary-color);
+    border-top-color: var(--secondary-color);
+}
+
+@media only screen and (max-width: 992px) {
+    .table-pricing tbody tr th {
+        background-image: linear-gradient(to right, var(--primary-color), var(--primary-color-2));
+    }
+
+}
