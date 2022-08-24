@@ -1,0 +1,2 @@
+# Gigaland NFT Marketplace
+Gigaland is a responsive, pixel-perfect, and the most complete template for NFTS marketplace, crypto-collectibles, digital items, non-fungible tokens websites, and more. Gigaland has a lot of styles and elements to help you make beauty and modern website in no time. Gigaland is built with modern technologies like HTML5, CSS3, jQuery, Bootstrap 5, CSS3 Animation, and more. we ensure you will always get top-notch products from us.
